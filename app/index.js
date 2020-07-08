@@ -150,7 +150,7 @@ function createSidebar() {
   const logoImg = document.createElement("img");
   logoImg.classList.add("status_logo");
   logoImg.src =
-    "https://webwallet.ropsten.v1.omg.network/static/media/omisego-blue.ff9c1d0f.svg";
+    "https://webwallet.mainnet.v1.omg.network/static/media/omg_logo.393fc57d.svg";
   sidebarBlock.appendChild(logoImg);
 
   const infoBlock = document.createElement("div");

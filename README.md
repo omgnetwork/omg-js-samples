@@ -53,25 +53,19 @@ In most of the code samples, Alice refers to the account of a sender (Wallet A),
 
 ## Setup
 
-1. Clone OMG code samples repository:
+1. Clone omg-js-samples code samples repository:
 
 ```
-git clone https://github.com/omgnetwork/omg-samples.git
+git clone https://github.com/omgnetwork/omg-js-samples.git
 ```
 
-2. Enter the root of `omg-js` folder:
-
-```
-cd omg-js
-```
-
-3. Install dependencies:
+2. Install dependencies:
 
 ```
 npm install
 ```
 
-4. Create `.env` file and provide the required configuration values:
+3. Create `.env` file and provide the required configuration values:
 
 ```
 ETH_NODE=                           <entry point to an ethereum node>

@@ -116,19 +116,19 @@ async function splitUtxo() {
   const receipt = await childChain.submitTransaction(signedTxn);
   console.log("Transaction submitted: " + receipt.txhash);
 
-  // wait for transaction to be recorded by the watcher
-  console.log("Waiting for a transaction to be recorded by the watcher...");
-  const expectedAmount = Number(aliceEthBalance) - Number(fee);
+  // // wait for transaction to be recorded by the watcher
+  // console.log("Waiting for a transaction to be recorded by the watcher...");
+  // const expectedAmount = Number(aliceEthBalance) - Number(fee);
 
-  await wait.waitForBalance(
-    childChain,
-    aliceAddress,
-    expectedAmount,
-    currencyToSplit
-  );
+  // await wait.waitForBalance(
+  //   childChain,
+  //   aliceAddress,
+  //   expectedAmount,
+  //   currencyToSplit
+  // );
 
-  console.log("-----");
-  showUtxo();
+  // console.log("-----");
+  // showUtxo();
 }
 
 export { splitUtxo };
