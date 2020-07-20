@@ -299,21 +299,15 @@ Current ETH exit queue: [
 
 ## Running the sample
 
-1. Enter the `omg-js` folder if you're in the root `omg-samples` repository:
-
-```
-cd omg-js
-```
-
-2. Install dependencies:
+1. Install dependencies:
 
 ```
 npm install
 ```
 
-3. Create `.env` file, modify configurations with required values (look at [.env.example](../../.env.example) or [README](../../README.md) of the `omg-js` repo for details).
+2. Create `.env` file, modify configurations with required values (look at [.env.example](../../.env.example) or [README](../../README.md) of the `omg-js-samples` repo for details).
 
-4. Run the app:
+3. Run the app:
 
 ```
 npm run start
